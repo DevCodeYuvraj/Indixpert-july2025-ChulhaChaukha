@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Yuvraj Singh",
+    "email_id": "yuvrajsingh@gmail.com",
+    "phone_no": "8107879120",
+    "password": "Yuvraj@27",
+    "registration_date": "2025-10-09 13:16:13.053921",
+    "qualification": [
+      {
+        "qualification_name": "bca",
+        "qualification_years": "2024"
+      }
+    ],
+    "aadhar_no": "123456789456"
+  }
+]
