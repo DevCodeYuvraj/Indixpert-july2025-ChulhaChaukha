@@ -1,8 +1,11 @@
+
 class valid_details:
+    
+    
     def valid_name():
         
         while(True):
-            firstname=input("please enter your first name : ")
+            firstname=input("please enter first name : ")
             if firstname.isalpha() :
                 firstname=firstname
                 break
@@ -11,7 +14,7 @@ class valid_details:
             else:
                 print("invalid input ! try again")    
         while(True):
-            lastname=input("please enter you last name : ")   
+            lastname=input("please enter last name : ")   
             if lastname.isalpha() :
                 lastname=lastname
                 break
@@ -103,3 +106,8 @@ class valid_details:
                 
             else:
                 print("invalid aadhar_no ,try again .")
+    def valid_digit(id):
+            if id.isdigit() and 0<len(id)<4:
+                return id
+            else:
+                print("invalid id")

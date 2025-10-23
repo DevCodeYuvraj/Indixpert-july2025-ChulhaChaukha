@@ -1,0 +1,5 @@
+ERROR: division by zero | TIME: 2025-10-15 12:32:34.151962 | MODULE: ExceptionHandling 
+ERROR: division by zero | TIME: 2025-10-15 12:35:55.882992 | MODULE: ExceptionHandling 
+ERROR: division by zero | TIME: 2025-10-15 12:36:11.515610 | MODULE: ExceptionHandling 
+ERROR: cannot access local variable 'fast_food' where it is not associated with a value | TIME: 2025-10-23 12:46:11.977782 | MODULE: ExceptionHandling 
+ERROR: string indices must be integers, not 'str' | TIME: 2025-10-23 12:47:57.333976 | MODULE: ExceptionHandling 

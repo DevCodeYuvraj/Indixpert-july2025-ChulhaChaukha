@@ -1,0 +1,314 @@
+[
+  {
+    "fast_food": {
+      "item_id": "1",
+      "item_name": "Paav Bhaji",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "90"
+    }
+  },
+  {
+    "fast_food": {
+      "item_id": "2",
+      "item_name": "Paneer Roll",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "100"
+    }
+  },
+  {
+    "fast_food": {
+      "item_id": "3",
+      "item_name": "Redsause Pasta",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "120"
+    }
+  },
+  {
+    "fast_food": {
+      "item_id": "4",
+      "item_name": "French Fries",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "110"
+    }
+  },
+  {
+    "noodles": {
+      "item_id": "11",
+      "item_name": "Veg Noodles",
+      "item_price_half_plate": "40",
+      "item_price_full_plate": "70"
+    }
+  },
+  {
+    "noodles": {
+      "item_id": "12",
+      "item_name": "Paneer Noodles",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "130"
+    }
+  },
+  {
+    "noodles": {
+      "item_id": "13",
+      "item_name": "Mushroom Noodles",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "noodles": {
+      "item_id": "14",
+      "item_name": "Schzwan Noodles",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "noodles": {
+      "item_id": "15",
+      "item_name": "Mix Noodles",
+      "item_price_half_plate": "100",
+      "item_price_full_plate": "180"
+    }
+  },
+  {
+    "Rice": {
+      "item_id": "21",
+      "item_name": "Veg Biryani",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "130"
+    }
+  },
+  {
+    "Rice": {
+      "item_id": "22",
+      "item_name": "Schzwan Rice",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "Rice": {
+      "item_id": "23",
+      "item_name": "Fried Rice",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "130"
+    }
+  },
+  {
+    "Rice": {
+      "item_id": "24",
+      "item_name": "Mixed Rice",
+      "item_price_half_plate": "100",
+      "item_price_full_plate": "180"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "31",
+      "item_name": "Tadka Daal",
+      "item_price_half_plate": "50",
+      "item_price_full_plate": "90"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "32",
+      "item_name": "Butter Tadkadaal",
+      "item_price_half_plate": "60",
+      "item_price_full_plate": "110"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "33",
+      "item_name": "Chana Masala",
+      "item_price_half_plate": "60",
+      "item_price_full_plate": "110"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "34",
+      "item_name": "Chana Paneer",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "35",
+      "item_name": "Aloo Dum",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "130"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "36",
+      "item_name": "Aloo Gobhi",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "37",
+      "item_name": "Manchurian Gravy",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "38",
+      "item_name": "Mix Veg",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "39",
+      "item_name": "Matar Paneer",
+      "item_price_half_plate": "90",
+      "item_price_full_plate": "170"
+    }
+  },
+  {
+    "Curry": {
+      "item_id": "40",
+      "item_name": "Paneer Butter Masala",
+      "item_price_half_plate": "100",
+      "item_price_full_plate": "190"
+    }
+  },
+  {
+    "Roti": {
+      "item_id": "41",
+      "item_name": "Rumali Roti",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "10"
+    }
+  },
+  {
+    "Roti": {
+      "item_id": "42",
+      "item_name": "Tawa Roti",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "7"
+    }
+  },
+  {
+    "Roti": {
+      "item_id": "43",
+      "item_name": "Butter Roti",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "12"
+    }
+  },
+  {
+    "Roti": {
+      "item_id": "44",
+      "item_name": "Plain Parata",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "15"
+    }
+  },
+  {
+    "Roti": {
+      "item_id": "45",
+      "item_name": "Aloo Paratha",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "40"
+    }
+  },
+  {
+    "Sandwich": {
+      "item_id": "51",
+      "item_name": "Veg Sandwich",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "50"
+    }
+  },
+  {
+    "Sandwich": {
+      "item_id": "52",
+      "item_name": "Cheese Sandwich",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "70"
+    }
+  },
+  {
+    "Sandwich": {
+      "item_id": "53",
+      "item_name": "Corn Sandwich",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "60"
+    }
+  },
+  {
+    "Sandwich": {
+      "item_id": "54",
+      "item_name": "Paneer Sandwich",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "80"
+    }
+  },
+  {
+    "Sandwich": {
+      "item_id": "55",
+      "item_name": "Mix Sandwich",
+      "item_price_half_plate": "0",
+      "item_price_full_plate": "120"
+    }
+  },
+  {
+    "Jain_Food": {
+      "item_id": "61",
+      "item_name": "Mix Veg",
+      "item_price_half_plate": "100",
+      "item_price_full_plate": "190"
+    }
+  },
+  {
+    "Jain_Food": {
+      "item_id": "62",
+      "item_name": "Paneer Masala",
+      "item_price_half_plate": "120",
+      "item_price_full_plate": "220"
+    }
+  },
+  {
+    "Jain_Food": {
+      "item_id": "63",
+      "item_name": "Kadhai Paneer",
+      "item_price_half_plate": "140",
+      "item_price_full_plate": "260"
+    }
+  },
+  {
+    "Jain_Food": {
+      "item_id": "64",
+      "item_name": "Kaju Paneer",
+      "item_price_half_plate": "200",
+      "item_price_full_plate": "380"
+    }
+  },
+  {
+    "fast_food": {
+      "item_id": "5",
+      "item_name": "Veg Pizza",
+      "item_price_half_plate": "70",
+      "item_price_full_plate": "130"
+    }
+  },
+  {
+    "fast_food": {
+      "item_id": "6",
+      "item_name": "Cheese Pizza",
+      "item_price_half_plate": "80",
+      "item_price_full_plate": "150"
+    }
+  }
+]
