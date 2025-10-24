@@ -4,6 +4,7 @@ from domain.validations import valid_details
 from domain.ispath import paths
 from domain.menu import menu
 import getpass
+#HERE IT IS ADMIN ID AND PASSWORD -----
 admin_dict={"user_id":"Bhati","password":"Yuvraj@2705"}
 path1=paths.loging_path()
 ispath=paths.registration_path()
@@ -104,7 +105,7 @@ class staff_welcome():
                                         print(" logged in")
                                         mn=menu
                                         mn.show_menu()
-                                        mn.order()
+                                        #mn.order()
                                         break
                                     else:
                                         flag=1
@@ -133,5 +134,3 @@ class staff_welcome():
         except Exception as e:
             WriteLogs(str(e))
             print("loading....../n technical error found")         
-ob=staff_welcome
-ob.authentication_menu()
