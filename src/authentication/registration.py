@@ -4,6 +4,8 @@ from domain.validations import valid_details
 from domain.ispath import paths
 from domain.menu import menu
 import getpass
+import domain.orders
+
 #HERE IT IS ADMIN ID AND PASSWORD -----
 admin_dict={"user_id":"Bhati","password":"Yuvraj@2705"}
 path1=paths.loging_path()
@@ -12,24 +14,23 @@ ispath=paths.registration_path()
 
 
 def WriteLogs(errorlogs) :
+        errorlogs=str(errorlogs)
         currentdate=str(datetime.datetime.now())
         with open(path1, 'a') as file:
-            file.write(f"\nERROR: {errorlogs} | TIME: {currentdate} | MODULE: ExceptionHandling ")
+            file.write(f"\nERROR: {errorlogs} | TIME: {currentdate} | MODULE: ExceptionHandling ",indent=2)
 
 def Readfile_fromjson():
-        try:
+        
             with open(ispath,'r') as file:
                 data=json.loads(file.read())
             return data    
-        except Exception as e:
-            WriteLogs(str(e))
-            print("loading....../n technical error found")
+        
             
 class staff_welcome():
 
     listdata=[]
     def menu():
-        try:
+        
             while(True):
                     
                 print("\nWelcome to Staff Registration\n")
@@ -41,9 +42,7 @@ class staff_welcome():
                     return user_input
                 else:
                     print("invalid input , try again !")
-        except Exception as e:
-            WriteLogs(str(e))
-            print("loading....../n technical error found")
+        
 
     def registration():
         try:
@@ -82,6 +81,7 @@ class staff_welcome():
                 flag=0
                 print("press 1 to login as admin ")
                 print("press 2 to login as staff")
+                print("press 3 to see previous menu")
                 user_input=input("please enter your choice : ")
                 if user_input.isdigit():
                     if user_input=='1':
@@ -89,9 +89,22 @@ class staff_welcome():
                         user_password=getpass.getpass("please enter your password : ")
                         if user_id==admin_dict["user_id"] and user_password==admin_dict["password"]:
                             print("welcome to admin dashboard ...")
-                            mn=menu
-                            mn.menu_actions()
-                            break
+                            print("1.for Menu Management")
+                            print("2.for order management")
+                            adminchoice=input("please enter your choice :")
+                            if adminchoice=='1':
+
+                                mn=menu
+                                mn.menu_actions()
+                                break
+                            elif adminchoice=='2':
+                                order_menu=domain.orders.order_management
+                                mn=menu
+                                mn.show_menu()
+                                order_menu.order()
+                                break
+                            else:
+                                print("invalid chioce")
                         else:
                             print("invalid admin login credentials")    
                     elif user_input=='2':
@@ -103,9 +116,10 @@ class staff_welcome():
                                 if i["email_id"]==user_id:
                                     if i["password"]==user_password:
                                         print(" logged in")
-                                        mn=menu
-                                        mn.show_menu()
-                                        #mn.order()
+                                        mainmenu=menu
+                                        mainmenu.show_menu()
+                                        order_menu=domain.orders.order_management
+                                        order_menu.order()
                                         break
                                     else:
                                         flag=1
@@ -114,6 +128,8 @@ class staff_welcome():
                             if flag==1:
                                 print("invalid login credentials , please try again !")  
                             break              
+                    elif user_input=='3':
+                        break                    
                     else:
                         print("invalid input, try again ")
                 else:

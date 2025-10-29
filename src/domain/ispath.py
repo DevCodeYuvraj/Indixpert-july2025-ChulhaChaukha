@@ -28,6 +28,7 @@ class paths:
         except Exception as e:
             WriteLogs(str(e))
             print("loading....../n technical error found")
+        
     def bill_path():
         
         try:
@@ -36,4 +37,18 @@ class paths:
         except Exception as e:
             WriteLogs(str(e))
             print("loading....../n technical error found")
-            
+    
+    def history_path():
+        try:
+            order_data=os.path.join(os.getcwd(),"src/database/order_history.json")
+            return order_data
+        except Exception as e:
+            WriteLogs(str(e))
+            print("loading....../n technical error found")
+    def table_path():
+        try:
+            table_path=os.path.join(os.getcwd(),"src\database\\bookings.json")
+            return table_path
+        except Exception as e:
+            WriteLogs(str(e))
+            print("loading....../n technical error found")

@@ -1,0 +1,34 @@
+[
+    {
+        "customer_name": "ysb",
+        "booking_status": "available",
+        "table_number": "2",
+        "date": "2025-11-10",
+        "start_time": "start_time_str",
+        "end_time": "end_time_str"
+    },
+    {
+        "customer_name": "ysb",
+        "booking_status": "available",
+        "table_number": "1",
+        "date": "2025-11-10",
+        "start_time": "start_time_str",
+        "end_time": "end_time_str"
+    },
+    {
+        "customer_name": "ysb",
+        "booking_status": "available",
+        "table_number": "3",
+        "date": "2025-11-10",
+        "start_time": "start_time_str",
+        "end_time": "end_time_str"
+    },
+    {
+        "customer_name": "ysb",
+        "booking_status": "available",
+        "table_number": "4",
+        "date": "2025-11-10",
+        "start_time": "start_time_str",
+        "end_time": "end_time_str"
+    }
+]

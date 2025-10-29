@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "1",
+    "item_name": "Paav Bhaji",
+    "price": "90",
+    "date-time": "2025-10-28 11:42:07.347475"
+  },
+  {
+    "item_id": "23",
+    "item_name": "Fried Rice",
+    "price": "130",
+    "date-time": "2025-10-28 10:39:40.088774"
+  },
+  {
+    "item_id": "2",
+    "item_name": "Paneer Roll",
+    "price": "100",
+    "date-time": "2025-10-28 10:19:07.781980"
+  },
+  {
+    "item_id": "1",
+    "item_name": "Paav Bhaji",
+    "price": "90",
+    "date-time": "2025-10-28 10:17:07.294132"
+  },
+  {
+    "item_id": "64",
+    "item_name": "Kaju Paneer",
+    "price": "380",
+    "date-time": "2025-10-28 10:16:35.332661"
+  }
+]
