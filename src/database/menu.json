@@ -302,13 +302,5 @@
       "item_price_half_plate": "70",
       "item_price_full_plate": "130"
     }
-  },
-  {
-    "fast_food": {
-      "item_id": "6",
-      "item_name": "Cheese Pizza",
-      "item_price_half_plate": "80",
-      "item_price_full_plate": "150"
-    }
   }
 ]
